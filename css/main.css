@@ -1,0 +1,57 @@
+/*bootstrap override */
+.table-hover > tbody > tr:hover {
+    background-color: #39c65f;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.carousel-control{
+    width: 6%;
+}
+/*my css */
+.cover{background: url("../images/cover.jpg");}
+.cover button{margin-top:40%;margin-left: auto;margin-right: auto;display: block;padding: 10px 50px;}
+.cover button a{color: #ffffff;}
+.cover button a:hover{text-decoration: none}
+nav{margin: 0px}
+nav .navbar-brand{font-weight: bold;font-size: 25px}
+nav .navbar-brand span{color: #206d35}
+nav .collapse ul li{font-weight: 600;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: #206d35;
+}
+.first-table .table-striped tbody .seperator  {height: 30px}
+.first-table .table-striped tbody tr td  {line-height: 97px}
+.row-holder{text-align: center;background: url("../images/stadium.png");padding-bottom: 20px;
+    background-position: center;;margin: 0px;color: #ffffff;padding-top:90px;font-weight:bolder;font-size:30px;}
+.row-holder span{line-height: 70px;}
+.row-holder p {background-color: rgba(0,0,0,.5);padding: 7px 5px;margin: 4px 0px;display: inline-block}
+.row-holder .white-bar {background-color: rgba(255,255,255,.75);color: black }
+.reservation{padding-top: 20px;}
+.reservation p{font-weight: bold}
+.reservation button{padding: 5px 30px}
+select{text-align: left;border-radius: 10%;width: 60px;height: 30px}
+.booking-head{font-weight: bold;font-size: 1.7em;background: linear-gradient(to bottom,#fcfcfc 0%,#e6e7e8 100%);
+padding: 10px 20px;}
+.booking-down{padding: 6px 20px;font-size: 1.2em;color: #808284}
+.booking-down span{color: #588B40}
+.booking-down p{font-weight: bold;color: rgba(51, 51, 51, 0.89)}
+.booking-table tr td:nth-child(1){font-weight: bold}
+.booking-table tr:last-child{background-color: #E7E8EA}
+.carousel{font-weight: bold;font-size: 1.7em;}
+.carousel .item{height: 400px;background-size: cover;}
+.carousel img{width: 100px;height: 100px}
+.carousel .first{background-color: #ffffff;text-align: center;margin-top: 10px;}
+.carousel .second{background-color: rgba(255, 255, 255,.7);text-align: center;color: #26629F;padding: 20px;}
+.buy-btn{background: linear-gradient(to bottom,#87bb41 0%,#417e3a 100%);padding: 10px 40px}
+footer{color: #ddd;background-color: #4B4B4B;padding: 10px 20px;text-align: center;position: fixed;
+bottom: 0px;left: 0px;width: 100%}
+.list-group{text-align: center}
+.list-group a img{float: left;}
+.tournaments img{height: 35px}
+
+
+
+
+
